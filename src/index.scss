@@ -1,0 +1,15 @@
+body {
+	min-height: 100vh;
+	margin: 0;
+	overscroll-behavior: none;
+	overflow: hidden;
+	-webkit-font-smoothing: antialiased;
+}
+
+canvas {
+	border: solid 1px rgba(0, 0, 0, 0.8);
+	box-sizing: border-box;
+	cursor: crosshair;
+	touch-action: none;
+	user-select: none;
+}

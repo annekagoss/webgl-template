@@ -1,0 +1,17 @@
+
+.fullScreenCanvas {
+	width: 100vw;
+	height: 100vh;
+	z-index: 1;
+	pointer-events: none;
+	position: fixed;
+	overflow-y: scroll;
+	bottom: 0;
+	border: none;
+}
+
+.canvasContainer {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
